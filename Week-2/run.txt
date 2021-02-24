@@ -1,0 +1,11 @@
+nasm -f elf q1_addition.asm;ld -m elf_i386 -s -o add q1_addition.o; ./add
+nasm -f elf q2_subtraction.asm;ld -m elf_i386 -s -o sub q2_subtraction.o; ./sub
+nasm -f elf q3_multiplication.asm;ld -m elf_i386 -s -o mul q3_multiplication.o; ./mul
+nasm -f elf q4_division.asm;ld -m elf_i386 -s -o div q4_division.o; ./div
+nasm -f elf q5_increment.asm;ld -m elf_i386 -s -o inc q5_increment.o; ./inc
+nasm -f elf q6_decrement.asm;ld -m elf_i386 -s -o dec q6_decrement.o; ./dec
+nasm -f elf q7_and.asm;ld -m elf_i386 -s -o and q7_and.o; ./and
+nasm -f elf q8_or.asm;ld -m elf_i386 -s -o or q8_or.o; ./or
+nasm -f elf q9_xor.asm;ld -m elf_i386 -s -o xor q9_xor.o; ./xor
+nasm -f elf q10_leftshift.asm;ld -m elf_i386 -s -o lsh q10_leftshift.o; ./lsh
+nasm -f elf q11_rightshift.asm;ld -m elf_i386 -s -o rsh q11_rightshift.o; ./rsh
