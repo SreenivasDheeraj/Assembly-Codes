@@ -108,7 +108,7 @@ finding:
     mov     eax, edx
     mov     [words], edx
 
-    ; Storing number of words in [vow]
+    ; Storing number of vowels in [vow]
     mov     eax, ebx
     mov     [vow], ebx
 
