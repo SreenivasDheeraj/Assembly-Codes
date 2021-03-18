@@ -1,0 +1,4 @@
+nasm -f elf q1_prime.asm;ld -m elf_i386  -o com q1_prime.o; ./com
+nasm -f elf q2_armstrong.asm;ld -m elf_i386  -o arm q2_armstrong.o; ./arm
+nasm -f elf q3_palindrome.asm;ld -m elf_i386  -o pal q3_palindrome.o; ./pal
+nasm -f elf q4_string.asm;ld -m elf_i386  -o str q4_string.o; ./str
